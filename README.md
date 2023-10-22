@@ -37,7 +37,7 @@ diagrams with ease.
 
 ## 🎓 Principles
 
-- **Lightweights**: import nothing but a single lightweight javascript.
+- **Lightweights**: import nothing but a single lightweight javascript file.
 - **Controlled components**: exports [controlled](https://reactjs.org/docs/forms.html#controlled-components) components only.
 - **Renderers**: the involved components can be easily replaced with your own by using the  `renderer` props.
 - **Easy to style**: built using CSS vars only.
@@ -73,10 +73,10 @@ To submit your custom pull request, please make sure your read our [CONTRIBUTING
 ## Versioning
 
 This library follows the [semver](https://semver.org) versioning standard.
-Pre-release commits on the `master` branch, including merge commits, lead 
+Pre-release commits on the `master` branch, including merge commits, lead
 to automated publication to NPM under the `next` tag. Pre-release version
-numbers must follow the `<major>.<minor>.<patch>-<tag>.<number>`, such as 
-`5.1.0-rc.0`. 
+numbers must follow the `<major>.<minor>.<patch>-<tag>.<number>`, such as
+`5.1.0-rc.0`.
 
 ### Credits
 
